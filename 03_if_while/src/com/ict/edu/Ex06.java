@@ -55,10 +55,10 @@ public class Ex06 {
 		
 		System.out.println();
 		
-	// 0 0 0 0
-	// 0 0 0 0
-	// 0 0 0 0
-	// 0 0 0 0 만들기
+	// 1 0 0 0
+	// 0 1 0 0
+	// 0 0 1 0
+	// 0 0 0 1 만들기
 		
 		for (int i = 0; i < 4; i++) {
 			for (int j = 0; j < 4; j++) {
