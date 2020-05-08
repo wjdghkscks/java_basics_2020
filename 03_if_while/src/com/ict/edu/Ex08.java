@@ -3,8 +3,8 @@ package com.ict.edu;
 public class Ex08 {
 	public static void main(String[] args) {
 
-	// ÁßÃ¸ while¹®: while¹® ¾È¿¡ while¹®À» »ç¿ë
-	//				´ÙÁß for¹®°ú °°À½
+	// ì¤‘ì²© whileë¬¸: whileë¬¸ ì•ˆì— whileë¬¸ì„ ì‚¬ìš©
+	//				ë‹¤ì¤‘ forë¬¸ê³¼ ê°™ìŒ
 	
 		for (int i = 1; i < 4; i++) {
 			for (int j = 1; j < 6; j++) {
@@ -28,11 +28,11 @@ public class Ex08 {
 		
 		System.out.println("=================");
 		
-	// ±¸±¸´Ü 2´ÜºÎÅÍ 9´Ü±îÁö (³ª¸ÓÁö 2°¡Áö ³ª¿­ ¹æ¹ıÀº ¼÷Á¦)
+	// êµ¬êµ¬ë‹¨ 2ë‹¨ë¶€í„° 9ë‹¨ê¹Œì§€ (ë‚˜ë¨¸ì§€ 2ê°€ì§€ ë‚˜ì—´ ë°©ë²•ì€ ìˆ™ì œ!)
 		
 		int k2 = 2;
 		while (k2 < 10) {			
-			System.out.println(k2 + "´Ü");
+			System.out.println(k2 + "ë‹¨");
 			
 			int g2 = 1;
 			while (g2 < 10) {
