@@ -3,14 +3,14 @@ package com.ict.edu;
 public class Ex09 {
 	public static void main(String[] args) {
 		
-	// do ~ while¹®: while¹®°ú °°Àº ¹İº¹¹®
-	// Çü½Ä: ÃÊ±â½Ä;
+	// do ~ whileë¬¸: whileë¬¸ê³¼ ê°™ì€ ë°˜ë³µë¬¸
+	// í˜•ì‹: ì´ˆê¸°ì‹;
 	//		 do {
-	//			 ½ÇÇà¹®;
-	//			 Áõ°¨½Ä;
-	//			} while(Á¶°Ç½Ä);
+	//			 ì‹¤í–‰ë¬¸;
+	//			 ì¦ê°ì‹;
+	//			} while(ì¡°ê±´ì‹);
 	
-	// 0 ~ 10 ±îÁö Ãâ·Â
+	// 0 ~ 10 ê¹Œì§€ ì¶œë ¥
 		int k1 = 0;
 		do {
 			System.out.print(k1 + " ");
@@ -20,7 +20,7 @@ public class Ex09 {
 		
 		System.out.println();
 		
-	// 0 ~ 10 ±îÁö Â¦¼ö¸¸ Ãâ·Â
+	// 0 ~ 10 ê¹Œì§€ ì§ìˆ˜ë§Œ ì¶œë ¥
 		int k2 = 0;
 		do {
 			if (k2 % 2 == 0) {
@@ -32,7 +32,7 @@ public class Ex09 {
 		
 		System.out.println();
 		
-	// 0 ~ 10 ´©ÀûÇÕ
+	// 0 ~ 10 ëˆ„ì í•©
 		int k3 = 0;
 		int sum = 0;
 		do {
@@ -43,13 +43,13 @@ public class Ex09 {
 		
 		System.out.println();
 		
-	// ±¸±¸´Ü 5´Ü Ãâ·Â
+	// êµ¬êµ¬ë‹¨ 5ë‹¨ ì¶œë ¥
 		int k4 = 1;
 		do {
 			System.out.println("5 X " + k4 + " = " + (5 * k4));
 			k4++;
 		} while (k4 < 10);
 		
-		
+		system.out.println("====================")
 	}
 }
