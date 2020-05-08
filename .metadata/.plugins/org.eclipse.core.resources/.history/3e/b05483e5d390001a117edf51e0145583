@@ -1,0 +1,9 @@
+package com.ict.edu;
+
+public class Ex06 {
+	public static void main(String[] args) {
+		
+	// 다중 for문 : for문 안에 다른 for문이 존재하는 것
+		
+	}
+}
