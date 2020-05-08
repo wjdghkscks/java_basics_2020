@@ -3,26 +3,26 @@ package com.ict.edu;
 public class Ex07 {
 	public static void main(String[] args) {
 	
-	// while ¹®: for¹®°ú °°Àº ¹Ýº¹¹®
-	// Çü½Ä1: ÃÊ±â½Ä
-	//  	  while(Á¶°Ç½Ä) {
-	//				Á¶°Ç½ÄÀÌ ÂüÀÏ ¶§ ½ÇÇà ¹®Àå;
-	//				Áõ°¨½Ä;
+	// while ë¬¸: forë¬¸ê³¼ ê°™ì€ ë°˜ë³µë¬¸
+	// í˜•ì‹1: ì´ˆê¸°ì‹
+	//  	  while(ì¡°ê±´ì‹) {
+	//				ì¡°ê±´ì‹ì´ ì°¸ì¼ ë•Œ ì‹¤í–‰ ë¬¸ìž¥;
+	//				ì¦ê°ì‹;
 	//			}
 	//
-	// while¹® ³¡À» ¸¸³ª¸é ¹«Á¶°Ç Á¶°Ç½ÄÀ¸·Î ÀÌµ¿
+	// whileë¬¸ ëì„ ë§Œë‚˜ë©´ ë¬´ì¡°ê±´ ì¡°ê±´ì‹ìœ¼ë¡œ ì´ë™
 	//
-	//	Çü½Ä2: ÃÊ±â½Ä
+	//	í˜•ì‹2: ì´ˆê¸°ì‹
 	//  	   while(true) {
-	//				if(ºüÁ®³ª°¥ Á¶°Ç) break;
-	//				Á¶°Ç½ÄÀÌ ÂüÀÏ ¶§ ½ÇÇà ¹®Àå;
-	//				Áõ°¨½Ä;
+	//				if(ë¹ ì ¸ë‚˜ê°ˆ ì¡°ê±´) break;
+	//				ì¡°ê±´ì‹ì´ ì°¸ì¼ ë•Œ ì‹¤í–‰ ë¬¸ìž¥;
+	//				ì¦ê°ì‹;
 	//			}
 	//
-	// while¹® ³¡À» ¸¸³ª¸é ¹«Á¶°Ç Á¶°Ç½ÄÀ¸·Î ÀÌµ¿
+	// whileë¬¸ ëì„ ë§Œë‚˜ë©´ ë¬´ì¡°ê±´ ì¡°ê±´ì‹ìœ¼ë¡œ ì´ë™
 	//
 
-	// 0 ~ 10 ±îÁö Ãâ·Â
+	// 0 ~ 10 ê¹Œì§€ ì¶œë ¥
 		
 		for (int i = 0; i < 11; i++) {
 			System.out.print(i + " ");
@@ -48,7 +48,7 @@ public class Ex07 {
 		System.out.println();
 		System.out.println();
 		
-	// 0 ~ 10 ±îÁö Â¦¼ö¸¸ Ãâ·Â
+	// 0 ~ 10 ê¹Œì§€ ì§ìˆ˜ë§Œ ì¶œë ¥
 		int k3 = 0;
 		while (k3 < 11) {
 			if (k3 % 2 == 0) {
@@ -72,7 +72,7 @@ public class Ex07 {
 		System.out.println();
 		System.out.println();
 		
-	// 0 ~ 10 ±îÁö È¦¼ö¸¸ Ãâ·Â 
+	// 0 ~ 10 ê¹Œì§€ í™€ìˆ˜ë§Œ ì¶œë ¥ 
 		int k4 = 0;
 		while (k4 < 11) {
 			if (k4 % 2 == 1) {
@@ -84,7 +84,7 @@ public class Ex07 {
 		
 		System.out.println();
 		
-	// 0 ~ 50 ±îÁö 7ÀÇ ¹è¼ö¸¸ Ãâ·Â
+	// 0 ~ 50 ê¹Œì§€ 7ì˜ ë°°ìˆ˜ë§Œ ì¶œë ¥
 		int k5 = 0;
 		while (k5 < 51) {
 			if (k5 % 7 == 0) {
@@ -96,7 +96,7 @@ public class Ex07 {
 		
 		System.out.println();
 		
-	// a ~ g ±îÁö Ãâ·Â
+	// a ~ g ê¹Œì§€ ì¶œë ¥
 		char k6 = 'a';
 		while (k6 < 'h') {
 			System.out.print(k6 + " ");
@@ -106,7 +106,7 @@ public class Ex07 {
 		
 		System.out.println();		
 		
-	// ±¸±¸´Ü 5´Ü Ãâ·Â
+	// êµ¬êµ¬ë‹¨ 5ë‹¨ ì¶œë ¥
 		int k7 = 1;
 		while (k7 < 10) {
 			System.out.println("5 X " + k7 + " = " + (5 * k7));
@@ -118,7 +118,7 @@ public class Ex07 {
 	// 0 0 0 0
 	// 0 0 0 0
 	// 0 0 0 0
-	// 0 0 0 0 ¸¸µé±â
+	// 0 0 0 0 ë§Œë“¤ê¸°
 		int k8 = 1;
 		int k9 = 1;
 		while (k8 < 5) {
@@ -144,12 +144,12 @@ public class Ex07 {
 		
 		System.out.println();
 		
-	// ¼÷Á¦
-	// 0 ~ 10 ´©ÀûÇÕ
-	// 0 ~ 10 È¦¼öÀÇ ÇÕ°è
-	// 0 ~ 10 Â¦¼öÀÇ ÇÕ°è
-	// 0 ~ 10 È¦¼ö, Â¦¼öÀÇ ÇÕ°è 
-	// 7!ÀÇ °ª
+	// ìˆ™ì œ
+	// 0 ~ 10 ëˆ„ì í•©
+	// 0 ~ 10 í™€ìˆ˜ì˜ í•©ê³„
+	// 0 ~ 10 ì§ìˆ˜ì˜ í•©ê³„
+	// 0 ~ 10 í™€ìˆ˜, ì§ìˆ˜ì˜ í•©ê³„ 
+	// 7!ì˜ ê°’ 
 		
 	}
 }
