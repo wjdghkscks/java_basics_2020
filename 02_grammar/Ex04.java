@@ -57,8 +57,5 @@ class Ex04{
 
 		int su4 = c1;
 		System.out.println(su4);
-		
-		System.out.println("=============");
-
 	}
 }

@@ -22,7 +22,5 @@ class Ex01{
 
 		result = false;
 		System.out.println(result);
-
-		System.out.println("=============");
 	}
 }

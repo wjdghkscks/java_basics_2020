@@ -61,9 +61,5 @@ class Ex15{
 
 		result = (c1 >= 'a') && (c1 <= 'z');		// char 는 숫자로 저장되므로 다음과 같이 사용 가능
 		System.out.println("결과 : " + result);
-		
-		System.out.println("=============");
-
-
 	}
 }

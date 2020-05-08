@@ -45,8 +45,5 @@ class Ex16{
 		System.out.println(! result);
 		System.out.println(!! result);
 		System.out.println(!!! result);
-		
-		System.out.println("=============");
-
 	}
 }

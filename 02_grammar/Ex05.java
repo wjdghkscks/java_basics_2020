@@ -32,8 +32,5 @@ class Ex05{
 
 		double su6 = c1;		// c1 은 char
 		System.out.println(su6);
-		
-		System.out.println("=============");
-
 	}
 }

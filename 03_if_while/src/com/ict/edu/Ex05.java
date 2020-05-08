@@ -169,8 +169,5 @@ public class Ex05 {
 			sum = sum * i;
 		}
 		System.out.println("7! = " + sum);
-		
-		System.out.println("=============");
-		
 	}
 }

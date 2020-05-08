@@ -20,8 +20,5 @@ class Ex17{
 
 		su1 %= 4;
 		System.out.println(su1);
-		
-		System.out.println("=============");
-
 	}
 }

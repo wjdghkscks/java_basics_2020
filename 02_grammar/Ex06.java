@@ -50,8 +50,5 @@ class Ex06{
 
 		int b6 = c2;
 		System.out.println(b6);
-		
-		System.out.println("=============");
-
 	}
 }

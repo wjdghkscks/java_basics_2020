@@ -26,7 +26,5 @@ class Ex03{
 
 		char k7 = '\uB098';
 		System.out.println(k7);
-		
-		System.out.println("=============");
 	}
 }

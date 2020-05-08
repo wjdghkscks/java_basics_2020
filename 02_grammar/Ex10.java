@@ -13,9 +13,5 @@ class Ex10{
 		System.out.println(su2 ++);
 		System.out.println(su1);
 		System.out.println(su2);
-		
-		System.out.println("=============");
-
-
 	}
 }

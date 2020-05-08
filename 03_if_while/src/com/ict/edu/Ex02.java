@@ -70,8 +70,5 @@ public class Ex02 {
 			result = k6;
 		}
 		System.out.println("결과 : " + result);
-		
-		System.out.println("=============");
-
 	}
 }

@@ -11,9 +11,5 @@ class Ex13{
 	time = (3600 * h) + (60 * m) + s;
 
 	System.out.println(h + "시간 " + m + "분 " + s + "초는 " + time + "초이다.");
-		
-	System.out.println("=============");
-
-
 	}
 }

@@ -40,9 +40,5 @@ class Ex11{
 		int output = input - (total + vat);
 
 		System.out.println("잔돈 : " + output);
-		
-		System.out.println("=============");
-
-
 	}
 }

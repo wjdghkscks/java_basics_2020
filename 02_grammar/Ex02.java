@@ -9,8 +9,5 @@ class Ex02{
 
 		// boolean res2;		선언만 하고 데이터 저장을 하지 않음
 		// System.out.println(res2);	데이터를 저장하지 않은 상태에서 호출하면 오류 발생
-		
-		System.out.println("=============");
-
 	}
 }

@@ -128,8 +128,5 @@ public class Ex03 {
 		int change2 = input2 - (price2 + vat2);		// 계산이 필요한 값들을 아래쪽에 위치
 		
 		System.out.println("잔돈 : " + change2 + " 원");
-		
-		System.out.println("=============");
-	
 	}
 }

@@ -31,8 +31,5 @@ class Ex14{
 
 		result = su3 == su5;				// char형, 정수형, 실수형 상관없이 비교 연산은 가능.
 		System.out.println("결과 : " + result);
-		
-		System.out.println("=============");
-
 	}
 }

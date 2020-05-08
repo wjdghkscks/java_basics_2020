@@ -17,9 +17,6 @@ class Ex12{
 	
 	s = res % 60;
 
-	System.out.println(time + "초는 " + h + "시간 " + m + "분 " + s + "초 이다." );
-		
-		System.out.println("=============");
-
+	System.out.println(time+"초는 "+h+"시간 "+m+"분 "+s+"초 이다." );
 	}
 }

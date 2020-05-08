@@ -42,10 +42,5 @@ public class Ex08 {
 			
 			k2++;
 		}
-		
-		System.out.println("=================");
-		
-		
-		
 	}
 }

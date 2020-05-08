@@ -32,9 +32,5 @@ class Ex09{
 
 		res = s1 % s2;
 		System.out.println("결과 : " + res);
-		
-		System.out.println("=============");
-
-
 	}
 }

@@ -49,7 +49,5 @@ public class Ex09 {
 			System.out.println("5 X " + k4 + " = " + (5 * k4));
 			k4++;
 		} while (k4 < 10);
-		
-		System.out.println("===================");
 	}
 }

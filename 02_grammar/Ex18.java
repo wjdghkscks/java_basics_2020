@@ -21,8 +21,5 @@ public class Ex18 {
 		double avg = 87.6;
 		int result = (avg >= 90)?'A':'B';
 		System.out.println("결과 : " + result);
-		
-		System.out.println("=============");
-		
 	}
 }

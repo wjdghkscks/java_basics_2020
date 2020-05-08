@@ -54,8 +54,6 @@ class Ex07{
 
 	// double + double = double
 
-// ==================================================================================================
-
 	// 소수점 첫째자리까지 구하기
 
 		double num1 = 83.5555;
@@ -68,10 +66,6 @@ class Ex07{
 		int num4 = 12758;
 		int num5 = num4 / 10;
 		int num6 = num5 * 10;
-		System.out.println(num6);
-		
-		System.out.println("=============");
-
-
+		System.out.println(num6);		
 	}
 }

@@ -23,7 +23,5 @@ public class Ex19 {
 		int dan = 8590;
 		int pay = (time > 8) ? (int)((8*dan) + (time-8)*dan*1.5) : (time*dan);
 		System.out.println("결과 : " + pay + "원");
-		
-		System.out.println("=============");
 	}
 }
