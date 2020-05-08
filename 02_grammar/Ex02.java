@@ -1,14 +1,16 @@
 class Ex02{
 	public static void main(String[] args){
-		boolean result;		// ¼±¾ğ
-		result = true;		// µ¥ÀÌÅÍ ÀúÀå
-		System.out.println(result);	// Ãâ·Â
+		boolean result;		// ì„ ì–¸
+		result = true;		// ë°ì´í„° ì €ì¥
+		System.out.println(result);	// ì¶œë ¥
 
-		boolean res = false;	// ¼±¾ğ°ú µ¥ÀÌÅÍ ÀúÀåÀ» ÇÑ ¹ø¿¡ Ã³¸®
+		boolean res = false;	// ì„ ì–¸ê³¼ ë°ì´í„° ì €ì¥ì„ í•œ ë²ˆì— ì²˜ë¦¬
 		System.out.println(res);
 
-		// boolean res2;		¼±¾ğ¸¸ ÇÏ°í µ¥ÀÌÅÍ ÀúÀåÀ» ÇÏÁö ¾ÊÀ½
-		// System.out.println(res2);	µ¥ÀÌÅÍ¸¦ ÀúÀåÇÏÁö ¾ÊÀº »óÅÂ¿¡¼­ È£ÃâÇÏ¸é ¿À·ù ¹ß»ı
+		// boolean res2;		ì„ ì–¸ë§Œ í•˜ê³  ë°ì´í„° ì €ì¥ì„ í•˜ì§€ ì•ŠìŒ
+		// System.out.println(res2);	ë°ì´í„°ë¥¼ ì €ì¥í•˜ì§€ ì•Šì€ ìƒíƒœì—ì„œ í˜¸ì¶œí•˜ë©´ ì˜¤ë¥˜ ë°œìƒ
+		
+		System.out.println("=============");
 
 	}
 }
