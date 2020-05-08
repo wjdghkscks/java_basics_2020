@@ -50,6 +50,6 @@ public class Ex09 {
 			k4++;
 		} while (k4 < 10);
 		
-		system.out.println("====================")
+		System.out.println("====================");
 	}
 }
