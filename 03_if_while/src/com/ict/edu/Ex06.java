@@ -3,7 +3,7 @@ package com.ict.edu;
 public class Ex06 {
 	public static void main(String[] args) {
 		
-	// ´ÙÁß for¹® : for¹® ¾È¿¡ ´Ù¸¥ for¹®ÀÌ Á¸ÀçÇÏ´Â °Í
+	// ë‹¤ì¤‘ forë¬¸ : forë¬¸ ì•ˆì— ë‹¤ë¥¸ forë¬¸ì´ ì¡´ì¬í•˜ëŠ” ê²ƒ
 		for (int i = 1; i < 4; i++) {
 			for (int j = 1; j < 6; j++) {
 				System.out.println("i= " + i + ", j= " + j);
@@ -12,9 +12,9 @@ public class Ex06 {
 		
 		System.out.println();
 		
-	// ±¸±¸´Ü 2´ÜºÎÅÍ 9´Ü±îÁö
+	// êµ¬êµ¬ë‹¨ 2ë‹¨ë¶€í„° 9ë‹¨ê¹Œì§€
 		for (int i = 2; i < 10; i++) {
-			System.out.println(i + "´Ü");
+			System.out.println(i + "ë‹¨");
 			for (int j = 1; j < 10; j++) {
 				System.out.println(i + " X " + j + " = " + (i * j));
 			}
@@ -23,7 +23,7 @@ public class Ex06 {
 		System.out.println();
 
 		for (int i = 2; i < 10; i++) {
-			System.out.println(i + "´Ü");
+			System.out.println(i + "ë‹¨");
 			for (int j = 1; j < 10; j++) {
 				System.out.print(i + " X " + j + " = " + (i * j) + "\t");
 			}											// \t = tab
@@ -44,7 +44,7 @@ public class Ex06 {
 	// 0 0 0 0
 	// 0 0 0 0
 	// 0 0 0 0
-	// 0 0 0 0 ¸¸µé±â
+	// 0 0 0 0 ë§Œë“¤ê¸°
 
 		for (int i = 0; i < 4; i++) {
 			for (int j = 0; j < 4; j++) {
@@ -58,7 +58,7 @@ public class Ex06 {
 	// 1 0 0 0
 	// 0 1 0 0
 	// 0 0 1 0
-	// 0 0 0 1 ¸¸µé±â
+	// 0 0 0 1 ë§Œë“¤ê¸°
 		
 		for (int i = 0; i < 4; i++) {
 			for (int j = 0; j < 4; j++) {
@@ -69,6 +69,8 @@ public class Ex06 {
 				}
 			}
 			System.out.println();
+			
+			System.out.println("=============");
 		}
 		
 	}
