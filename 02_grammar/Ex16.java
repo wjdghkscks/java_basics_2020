@@ -1,50 +1,52 @@
 class Ex16{
 	public static void main(String[] args){
 
-	// ³í¸® ¿¬»êÀÚ: &&(AND, ³í¸®°ö), ||(OR, ³í¸®ÇÕ), !(NOT, ³í¸®ºÎÁ¤))
-	// ³í¸® ¿¬»êÀÚÀÇ ´ë»ó(µé¾î¿À´Â Á¤º¸): booleanÇü, ºñ±³¿¬»ê, ³í¸®¿¬»ê
-	// ³í¸® ¿¬»êÀÇ °á°ú´Â booleanÇüÀ¸·Î µµÃâ. Áï, Á¶°Ç½Ä¿¡¼­ »ç¿ë.
+	// ë…¼ë¦¬ ì—°ì‚°ì: &&(AND, ë…¼ë¦¬ê³±), ||(OR, ë…¼ë¦¬í•©), !(NOT, ë…¼ë¦¬ë¶€ì •))
+	// ë…¼ë¦¬ ì—°ì‚°ìì˜ ëŒ€ìƒ(ë“¤ì–´ì˜¤ëŠ” ì •ë³´): booleaní˜•, ë¹„êµì—°ì‚°, ë…¼ë¦¬ì—°ì‚°
+	// ë…¼ë¦¬ ì—°ì‚°ì˜ ê²°ê³¼ëŠ” booleaní˜•ìœ¼ë¡œ ë„ì¶œ. ì¦‰, ì¡°ê±´ì‹ì—ì„œ ì‚¬ìš©.
 
-	// || (OR, ³í¸®ÇÕ): ÁÖ¾îÁø Á¶°Ç Áß ÇÏ³ª¶óµµ true¸é °á°ú´Â true
-	//		     ÁÖ¾îÁø Á¶°Çµé Áß true¸¦ ¸¸³ª¸é °á°ú´Â true
-	//		     true¸¦ ¸¸³ª¸é ÀÌÈÄ Á¶°ÇµéÀÇ ¿¬»êÀº ÇÏÁö ¾ÊÀ½
+	// || (OR, ë…¼ë¦¬í•©): ì£¼ì–´ì§„ ì¡°ê±´ ì¤‘ í•˜ë‚˜ë¼ë„ trueë©´ ê²°ê³¼ëŠ” true
+	//		     ì£¼ì–´ì§„ ì¡°ê±´ë“¤ ì¤‘ trueë¥¼ ë§Œë‚˜ë©´ ê²°ê³¼ëŠ” true
+	//		     trueë¥¼ ë§Œë‚˜ë©´ ì´í›„ ì¡°ê±´ë“¤ì˜ ì—°ì‚°ì€ í•˜ì§€ ì•ŠìŒ
 
 		int su1 = 10;
 		int su2 = 7;
-		boolean result = false;	// result¸¦ ÃÊ±âÈ­
+		boolean result = false;	// resultë¥¼ ì´ˆê¸°í™”
 
 		result = (su1 >= 7) || (su2 >= 5);	// true = true || true
-		System.out.println("°á°ú : " + result);
+		System.out.println("ê²°ê³¼ : " + result);
 
 		result = (su1 >= 7) || (su2 <= 5); 	// true = true || false
-		System.out.println("°á°ú : " + result);
+		System.out.println("ê²°ê³¼ : " + result);
 
 		result = (su1 <= 7) || (su2 >= 5);	// true = false || true
-		System.out.println("°á°ú : " + result);
+		System.out.println("ê²°ê³¼ : " + result);
 
 		result = (su1 <= 7) || (su2 <= 5);	// false = false || false
 
-		System.out.println("°á°ú : " + result);
+		System.out.println("ê²°ê³¼ : " + result);
 
 	 	System.out.println("========================================");
 
-		// ORÀº trueÀÎ Á¶°ÇÀ» ¸¸³ª¸é ÀÌÈÄ Á¶°ÇÀº ¿¬»êÇÏÁö ¾ÊÀ½
+		// ORì€ trueì¸ ì¡°ê±´ì„ ë§Œë‚˜ë©´ ì´í›„ ì¡°ê±´ì€ ì—°ì‚°í•˜ì§€ ì•ŠìŒ
 
 		result = ((su1 = su1 + 2) > su2) || (su1 == (su2 = su2 + 5));
 
-		System.out.println("°á°ú : " + result);
+		System.out.println("ê²°ê³¼ : " + result);
 		System.out.println("su1 : " + su1);
 		System.out.println("su2 : " + su2);
 
 	 	System.out.println("========================================");
 
-	// ! (NOT, ³í¸®ºÎÁ¤): ÁÖ¾îÁø ³í¸®°ªÀ» ¹İ´ë·Î Ãâ·ÂÇÔ
+	// ! (NOT, ë…¼ë¦¬ë¶€ì •): ì£¼ì–´ì§„ ë…¼ë¦¬ê°’ì„ ë°˜ëŒ€ë¡œ ì¶œë ¥í•¨
 
 		result = true;
 		System.out.println(result);
 		System.out.println(! result);
 		System.out.println(!! result);
 		System.out.println(!!! result);
+		
+		System.out.println("=============");
 
 	}
 }
