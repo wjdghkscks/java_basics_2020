@@ -1,20 +1,20 @@
 class Ex04{
 	public static void main(String[] args){
-	// Á¤¼öÇü (¼Ò¼öÁ¡ÀÌ ¾øÀ½) < ½Ç¼öÇü (¼Ò¼öÁ¡ÀÌ ÀÖÀ½)	
-	// Á¤¼öÇü: byte < short < int < long , Á¤¼öÇüÀÇ ±âº»Àº int
-	// ½Ç¼öÇü: float < double , ½Ç¼öÇüÀÇ ±âº»Àº double
+	// ì •ìˆ˜í˜• (ì†Œìˆ˜ì ì´ ì—†ìŒ) < ì‹¤ìˆ˜í˜• (ì†Œìˆ˜ì ì´ ìˆìŒ)	
+	// ì •ìˆ˜í˜•: byte < short < int < long , ì •ìˆ˜í˜•ì˜ ê¸°ë³¸ì€ int
+	// ì‹¤ìˆ˜í˜•: float < double , ì‹¤ìˆ˜í˜•ì˜ ê¸°ë³¸ì€ double
 
-	// byte: Á¤¼öÇü Áß °¡Àå ÀÛÀº ´ÜÀ§
-	// 	 -128 ~ 127 »çÀÌÀÇ ¼ıÀÚ¸¸ ÀúÀå °¡´É
+	// byte: ì •ìˆ˜í˜• ì¤‘ ê°€ì¥ ì‘ì€ ë‹¨ìœ„
+	// 	 -128 ~ 127 ì‚¬ì´ì˜ ìˆ«ìë§Œ ì €ì¥ ê°€ëŠ¥
 
 		byte b1 = 127;
 		System.out.println(b1);
 
-	// °è»ê½ÄÀº °á°ú¸¸ ÀúÀåµÊ
+	// ê³„ì‚°ì‹ì€ ê²°ê³¼ë§Œ ì €ì¥ë¨
 		byte b2 = 15 + 12;
 		System.out.println(b2);
 
-	// short: -32768 ~ 32767 »çÀÌÀÇ °ª¸¸ ÀúÀå °¡´É
+	// short: -32768 ~ 32767 ì‚¬ì´ì˜ ê°’ë§Œ ì €ì¥ ê°€ëŠ¥
 
 		short s1 = -32768;
 		System.out.println(s1);
@@ -22,41 +22,43 @@ class Ex04{
 		short s2 = 32767;
 		System.out.println(s2);
 
-	// int¿Í longÀº ¼ıÀÚ ¹üÀ§¸¦ ¿Ü¿ï ÇÊ¿ä ¾øÀ½
-	// ÀÏ¹İÀûÀÎ Á¤¼ö´Â int »ç¿ë , ¾ÆÁÖ Å« Á¤¼ö¸¦ »ç¿ëÇÒ ¶§¸¸ long »ç¿ë
+	// intì™€ longì€ ìˆ«ì ë²”ìœ„ë¥¼ ì™¸ìš¸ í•„ìš” ì—†ìŒ
+	// ì¼ë°˜ì ì¸ ì •ìˆ˜ëŠ” int ì‚¬ìš© , ì•„ì£¼ í° ì •ìˆ˜ë¥¼ ì‚¬ìš©í•  ë•Œë§Œ long ì‚¬ìš©
 
 		int su1 = 247;
 		int su2 = 7777777;
 		System.out.println(su1);
 		System.out.println(su2);
 
-	// long : int º¸´Ù ´õ ³ĞÀº ¹üÀ§¸¦ °¡Áö°í ÀÖÀ½
-	// 	  ±âº»ÀûÀ¸·Î ¼ıÀÚ µÚ¿¡ L ¶Ç´Â l À» ºÙÀÓ (»ı·«°¡´É)
+	// long : int ë³´ë‹¤ ë” ë„“ì€ ë²”ìœ„ë¥¼ ê°€ì§€ê³  ìˆìŒ
+	// 	  ê¸°ë³¸ì ìœ¼ë¡œ ìˆ«ì ë’¤ì— L ë˜ëŠ” l ì„ ë¶™ì„ (ìƒëµê°€ëŠ¥)
 
 		long num1 = 124L;
 		System.out.println(num1);
 
-	// ÀÛÀº ÀÚ·áÇüÀÌ Å« ÀÚ·áÇü¿¡ ÀúÀåµÇ´õ¶óµµ ¿À·ù°¡ ¹ß»ıÇÏÁö´Â ¾ÊÀ½.
+	// ì‘ì€ ìë£Œí˜•ì´ í° ìë£Œí˜•ì— ì €ì¥ë˜ë”ë¼ë„ ì˜¤ë¥˜ê°€ ë°œìƒí•˜ì§€ëŠ” ì•ŠìŒ.
 		long num2 = 124;
 		System.out.println(num2);
 
-	// intÇü su1 À» longÇü num3¿¡ ÀúÀå
+	// intí˜• su1 ì„ longí˜• num3ì— ì €ì¥
 		long num3 = su1;
 		System.out.println(num3);
 
-	// shortÇü s1 À» longÇü num4¿¡ ÀúÀå
+	// shortí˜• s1 ì„ longí˜• num4ì— ì €ì¥
 		long num4 = s1;
 		System.out.println(num4);
 
-	// shortÇü s1 À» int su3 ¿¡ ÀúÀå
+	// shortí˜• s1 ì„ int su3 ì— ì €ì¥
 		int su3 = s1;
 		System.out.println(su3);
 
-		char c1 = '°¡';
+		char c1 = 'ê°€';
 		System.out.println(c1);
 
 		int su4 = c1;
 		System.out.println(su4);
+		
+		System.out.println("=============");
 
 	}
 }
