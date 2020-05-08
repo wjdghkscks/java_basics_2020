@@ -141,8 +141,6 @@ public class Ex05 {
 		}
 		System.out.println("Â¦¼öÀÇ ÇÕ: " + even);
 		
-		System.out.println();
-		
 	// 0 ~ 10 È¦¼ö, Â¦¼öÀÇ ÇÕ°è
 		odd = 0;
 		even = 0;
@@ -164,11 +162,6 @@ public class Ex05 {
 		}
 		System.out.println("7! = " + sum);
 		
-		sum = 1;
-		for (int i = 7; i > 0; i--) {
-			sum = sum * i;
-		}
-		System.out.println("7! = " + sum);
 		
+		}
 	}
-}

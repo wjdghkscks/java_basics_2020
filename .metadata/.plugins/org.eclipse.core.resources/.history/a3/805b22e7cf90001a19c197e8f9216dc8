@@ -164,11 +164,6 @@ public class Ex05 {
 		}
 		System.out.println("7! = " + sum);
 		
-		sum = 1;
-		for (int i = 7; i > 0; i--) {
-			sum = sum * i;
-		}
-		System.out.println("7! = " + sum);
 		
+		}
 	}
-}

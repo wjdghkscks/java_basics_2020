@@ -141,20 +141,16 @@ public class Ex05 {
 		}
 		System.out.println("Â¦¼öÀÇ ÇÕ: " + even);
 		
-		System.out.println();
-		
 	// 0 ~ 10 È¦¼ö, Â¦¼öÀÇ ÇÕ°è
 		odd = 0;
 		even = 0;
 		for (int i = 0; i < 11; i++) {
 			if (i % 2 != 0) {
 				odd = odd + i;
-			} else {
+			} else (i % 2 == 0) {
 				even = even + i;
 			}
 		}
-		System.out.println("È¦¼öÀÇ ÇÕ: " + odd);
-		System.out.println("Â¦¼öÀÇ ÇÕ: " + even);
 		System.out.println("ÃÑÇÕ: " + (even + odd));
 		
 	// 7! (7 * 6 * 5 * 4 * 3 * 2 * 1) ÀÇ °ª ±¸ÇÏ±â
@@ -164,11 +160,6 @@ public class Ex05 {
 		}
 		System.out.println("7! = " + sum);
 		
-		sum = 1;
-		for (int i = 7; i > 0; i--) {
-			sum = sum * i;
-		}
-		System.out.println("7! = " + sum);
 		
+		}
 	}
-}
