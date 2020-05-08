@@ -1,7 +1,7 @@
 class Ex13{
 	public static void main(String[] args){
 
-	// 2½Ã°£ 40ºĞ 30ÃÊ´Â ¸î ÃÊÀÎÁö ±¸ÇÏ½Ã¿À.
+	// 2ì‹œê°„ 40ë¶„ 30ì´ˆëŠ” ëª‡ ì´ˆì¸ì§€ êµ¬í•˜ì‹œì˜¤.
 
 	int h = 2;
 	int m = 40;
@@ -10,7 +10,9 @@ class Ex13{
 
 	time = (3600 * h) + (60 * m) + s;
 
-	System.out.println(h + "½Ã°£ " + m + "ºĞ " + s + "ÃÊ´Â " + time + "ÃÊÀÌ´Ù.");
+	System.out.println(h + "ì‹œê°„ " + m + "ë¶„ " + s + "ì´ˆëŠ” " + time + "ì´ˆì´ë‹¤.");
+		
+	System.out.println("=============");
 
 
 	}
