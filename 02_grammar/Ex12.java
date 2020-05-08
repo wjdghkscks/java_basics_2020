@@ -1,13 +1,13 @@
 class Ex12{
 	public static void main(String[] args){
 
-	// 3989 ÃÊ´Â ¸î½Ã°£, ¸îºĞ, ¸îÃÊÀÎÁö ±¸ÇÏ½Ã¿À.
+	// 3989 ì´ˆëŠ” ëª‡ì‹œê°„, ëª‡ë¶„, ëª‡ì´ˆì¸ì§€ êµ¬í•˜ì‹œì˜¤.
 
 	int time = 3989;
 	int h = 0;
 	int m = 0;
 	int s = 0;
-	int res = 0;	// res ´Â ³ª¸ÓÁö¸¦ ÀÇ¹ÌÇÔ.
+	int res = 0;	// res ëŠ” ë‚˜ë¨¸ì§€ë¥¼ ì˜ë¯¸í•¨.
 
 	h = time / 3600;
 
@@ -17,7 +17,9 @@ class Ex12{
 	
 	s = res % 60;
 
-	System.out.println(time + "ÃÊ´Â " + h + "½Ã°£ " + m + "ºĞ " + s + "ÃÊ ÀÌ´Ù." );
+	System.out.println(time + "ì´ˆëŠ” " + h + "ì‹œê°„ " + m + "ë¶„ " + s + "ì´ˆ ì´ë‹¤." );
+		
+		System.out.println("=============");
 
 	}
 }
