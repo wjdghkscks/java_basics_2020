@@ -1,37 +1,39 @@
 class Ex09{
 	public static void main(String[] args){
 
-	// »ê¼ú¿¬»êÀÚ: + , - , * , / , %
-	// char, Á¤¼öÇü, ½Ç¼öÇü »ç¿ë °¡´É
+	// ì‚°ìˆ ì—°ì‚°ì: + , - , * , / , %
+	// char, ì •ìˆ˜í˜•, ì‹¤ìˆ˜í˜• ì‚¬ìš© ê°€ëŠ¥
 	
 		int s1 = 9;
 		int s2 = 4;
-		int res = 0;	// res´Â ´äÀ» ÀúÀåÇÏ´Â °ø°£À¸·Î, ÃÊ±â°ª 0À» ÁöÁ¤
+		int res = 0;	// resëŠ” ë‹µì„ ì €ì¥í•˜ëŠ” ê³µê°„ìœ¼ë¡œ, ì´ˆê¸°ê°’ 0ì„ ì§€ì •
 		
 		res = s1 + s2;
-		System.out.println("°á°ú : " + res);
+		System.out.println("ê²°ê³¼ : " + res);
 
 		res = s1 - s2;
-		System.out.println("°á°ú : " + res);
+		System.out.println("ê²°ê³¼ : " + res);
 
 		res = s1 * s2;
-		System.out.println("°á°ú : " + res);
+		System.out.println("ê²°ê³¼ : " + res);
 
-	// Á¤¼öÇüÀ¸·Î ¸¸µé¾î¼­ ¸ò¸¸ ³ª¿À´Â ¹æ¹ı
+	// ì •ìˆ˜í˜•ìœ¼ë¡œ ë§Œë“¤ì–´ì„œ ëª«ë§Œ ë‚˜ì˜¤ëŠ” ë°©ë²•
 		
 		res = s1 / s2;
-		System.out.println("°á°ú : " + res);
+		System.out.println("ê²°ê³¼ : " + res);
 
-	// ½Ç¼öÇüÀ¸·Î ¸¸µé¾î¼­ ½Ç¼ö°ªÀÌ ³ª¿À´Â ¹æ¹ı
+	// ì‹¤ìˆ˜í˜•ìœ¼ë¡œ ë§Œë“¤ì–´ì„œ ì‹¤ìˆ˜ê°’ì´ ë‚˜ì˜¤ëŠ” ë°©ë²•
 		
 		double result1 = s1 / s2;
-		System.out.println("°á°ú : " + result1);	// Á¤¼ö / Á¤¼ö = Á¤¼ö . Áï, ½Ç¼ö°ªÀÌ Á¤È®ÇÏ°Ô ³ª¿ÀÁö ¾ÊÀ½.
+		System.out.println("ê²°ê³¼ : " + result1);	// ì •ìˆ˜ / ì •ìˆ˜ = ì •ìˆ˜ . ì¦‰, ì‹¤ìˆ˜ê°’ì´ ì •í™•í•˜ê²Œ ë‚˜ì˜¤ì§€ ì•ŠìŒ.
 
 		double result2 = (double)(s1) / s2;
-		System.out.println("°á°ú : " + result2);
+		System.out.println("ê²°ê³¼ : " + result2);
 
 		res = s1 % s2;
-		System.out.println("°á°ú : " + res);
+		System.out.println("ê²°ê³¼ : " + res);
+		
+		System.out.println("=============");
 
 
 	}
