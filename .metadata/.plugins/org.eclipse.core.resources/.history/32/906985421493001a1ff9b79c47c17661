@@ -9,7 +9,7 @@ public class Ex04 {
 		//			case 조건값1 : 인자값과 조건값1이 같을 때 수행할 문장; break;
 		//			case 조건값2 : 인자값과 조건값2이 같을 때 수행할 문장; break;
 		//			case 조건값3 : 인자값과 조건값3이 같을 때 수행할 문장; break;
-		//			default : 조건값1,2,3 이 모두 인자값과 같지 않을 때 수행할 문장; (else와 같은 기능)
+		//			default : 조건값1,2,3 이 모두 인자값과 같지 않을 때 수행할 문장;
 		// 		  }
 		// break; 가 없으면 break 를 만날 때까지 모든 실행문을 실행
 		// break; 는 현재 실행하고 있는 범위를 벗어나는 역할
@@ -71,7 +71,7 @@ public class Ex04 {
 		default: res = "잘못 입력하셨습니다."; break;
 		}
 		System.out.println("결과 : " + res);
-		// switch문은 번호에 순서가 없으므로, 순서를 바꿔서 case를 작성해도 괜찮음.
+		// switch문은 순서가 없으므로, 순서를 바꿔서 case를 작성해도 괜찮음.
 		
 		// String k5가 한국이면 서울 / 중국이면 북경 / 일본이면 동경 / 미국이면 워싱턴
 		String k5 = "미국";

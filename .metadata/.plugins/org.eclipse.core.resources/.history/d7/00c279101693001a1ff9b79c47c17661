@@ -160,14 +160,6 @@ public class Ex07 {
 	// 0 ~ 10 홀수의 합계
 		int g2 = 0;
 		int odd = 0;
-		while (g2 < 11) {
-			if (g2 % 2 == 1) {
-				odd = odd + g2;
-				g2++;
-			}
-		}
-		System.out.println(odd);
-
 	// 0 ~ 10 짝수의 합계
 	// 0 ~ 10 홀수, 짝수의 합계 
 	// 7!의 값 

@@ -167,7 +167,7 @@ public class Ex07 {
 			}
 		}
 		System.out.println(odd);
-
+		
 	// 0 ~ 10 짝수의 합계
 	// 0 ~ 10 홀수, 짝수의 합계 
 	// 7!의 값 

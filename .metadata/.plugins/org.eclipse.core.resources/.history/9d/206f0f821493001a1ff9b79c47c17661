@@ -7,7 +7,7 @@ public class Ex05 {
 	// for (초기식; 조건식; 증감식) {
 	// 		조건식이 참일때 실행할 문장;
 	// }
-	// for문은 무조건 초기식부터 시작
+	// for문은 무조건 초기식부터 시작함. 조건식
 	// 조건식은 boolean형 (boolean, 비교연산, 논리연산)
 	// 조건식이 참이면 for문 안쪽 블록을 실행.
 	// for문의 끝을 만나면 무조건 증감식으로 이동.
@@ -74,7 +74,7 @@ public class Ex05 {
 		// \n은 줄바꿈을 의미하는 이스케이프 문자
 		
 		// System.out.println() : 줄 바꾸기
-		// System.out.print() : 존재할 수 없는 명령어
+		// System.out.print() : 존재하지 않음
 		// System.out.println(변수나 데이터) : 출력 후 줄 바꾸기
 		// System.out.print(변수나 데이터) : 옆으로 출력하기
 		// 

@@ -74,7 +74,7 @@ public class Ex05 {
 		// \n은 줄바꿈을 의미하는 이스케이프 문자
 		
 		// System.out.println() : 줄 바꾸기
-		// System.out.print() : 존재할 수 없는 명령어
+		// System.out.print() : 존재할 수 없음
 		// System.out.println(변수나 데이터) : 출력 후 줄 바꾸기
 		// System.out.print(변수나 데이터) : 옆으로 출력하기
 		// 

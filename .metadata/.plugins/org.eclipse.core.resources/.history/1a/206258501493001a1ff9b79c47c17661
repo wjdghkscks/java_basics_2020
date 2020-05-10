@@ -71,7 +71,7 @@ public class Ex04 {
 		default: res = "잘못 입력하셨습니다."; break;
 		}
 		System.out.println("결과 : " + res);
-		// switch문은 번호에 순서가 없으므로, 순서를 바꿔서 case를 작성해도 괜찮음.
+		// switch문은 순서가 없으므로, 순서를 바꿔서 case를 작성해도 괜찮음.
 		
 		// String k5가 한국이면 서울 / 중국이면 북경 / 일본이면 동경 / 미국이면 워싱턴
 		String k5 = "미국";
