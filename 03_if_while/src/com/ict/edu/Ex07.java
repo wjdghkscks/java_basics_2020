@@ -145,9 +145,9 @@ public class Ex07 {
 		System.out.println();
 		
 		System.out.println("=================================");
+		
 		System.out.println();
 		
-	// 숙제
 	// 0 ~ 10 누적합
 		int g1 = 0;
 		int sum = 0;
@@ -155,7 +155,7 @@ public class Ex07 {
 			sum = sum + g1;
 			g1++;
 		}
-		System.out.println(sum);
+		System.out.println("합계 : " + sum);
 		
 	// 0 ~ 10 홀수의 합계
 		int g2 = 0;
@@ -163,14 +163,44 @@ public class Ex07 {
 		while (g2 < 11) {
 			if (g2 % 2 == 1) {
 				odd = odd + g2;
-				g2++;
 			}
+			g2++;
 		}
-		System.out.println(odd);
+		System.out.println("홀수의 합계 : " + odd);
 
 	// 0 ~ 10 짝수의 합계
-	// 0 ~ 10 홀수, 짝수의 합계 
-	// 7!의 값 
+		int g3 = 0;
+		int even = 0;
+		while (g3 < 11) {
+			if (g3 % 2 == 0) {
+				even = even + g3;
+			}
+			g3++;
+		}
+		System.out.println("짝수의 합계 : " + even);
 		
+	// 0 ~ 10 홀수, 짝수의 합계
+		int g4 = 0;
+		even = 0;
+		odd = 0;
+		while (g4 < 11) {
+			if (g4 % 2 == 0) {
+				even = even + g4;
+			} else if (g4 % 2 == 1) {
+				odd = odd + g4;
+			}
+			g4++;
+		}
+		System.out.println("홀수의 합계 : " + odd);
+		System.out.println("짝수의 합계 : " + even);
+		
+	// 7!의 값 
+		int g5 = 7;
+		int res = 1;
+		while (g5 > 0) {
+			res = res * g5;
+			g5--;
+		}
+		System.out.println("7! = " + res);
 	}
 }

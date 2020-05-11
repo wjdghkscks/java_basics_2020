@@ -42,5 +42,24 @@ public class Ex08 {
 			
 			k2++;
 		}
+		
+		System.out.println("=================");
+		
+		int k3 = 2;
+		while (k3 < 10) {
+			
+			int g3 = 1;
+			while (g3 < 10) {
+				System.out.print(k3 + " X " + g3 + " = " + (k3*g3) + "	");
+				g3++;
+			}
+			System.out.println();
+			k3++;
+		}
+		
+		System.out.println("=================");
+
+		
+		
 	}
 }
