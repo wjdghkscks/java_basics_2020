@@ -7,6 +7,8 @@ public class Ex03 {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		// 입력을 받은 후 반복문 만들기
+		
 		System.out.print("원하는 반복 횟수 : ");
 		int count = sc.nextInt();
 		
@@ -14,7 +16,7 @@ public class Ex03 {
 		String str = sc.next();
 		
 		for (int i = 0; i < count; i++) {
-			System.out.println(count + ". " + str);
+			System.out.println((i+1) + ". " + str);
 		}
 		
 	}

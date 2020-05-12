@@ -110,12 +110,5 @@ public class Ex02 {
 		System.out.println("총액은 " + total + "원 입니다. (VAT 제외)");
 		System.out.println("잔돈은 " + output + "원 입니다. (VAT 포함)");
 		
-		
-	
-		
-		
-		
-		
-		
 	}
 }
