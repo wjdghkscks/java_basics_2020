@@ -13,4 +13,25 @@ public class Ex02 {
 	final int math = 90;		// instance 상수
 	final static int com = 95;	// static 상수	  >>> 일반적으로 상수를 표현할 때 사용
 	
+	
+	// 변수와 상수의 차이
+	// 메소드: 작동, 기능, 동작
+	// 메소드의 구성 >>> [접근제한자] [메소드종류] 반환형 메소드이름([인자]) {실행 내용}
+	// void는 되돌아 갈 때 결과가 없음
+	
+	public void prn() {
+		
+	// 변수이기때문에 변경 가능
+		kor = kor + 10;
+		eng = eng + 10;
+		
+	// 상수(final)이기때문에 변경 시 오류 발생
+	//	math = math + 10;
+	//	com = com + 10;
+		
+	}
+	
+	
+	
+	
 }
