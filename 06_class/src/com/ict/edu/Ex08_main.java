@@ -23,7 +23,7 @@ public class Ex08_main {
 		
 		
 		
-		Ex08[] arr = {coffee, ion, cola, juice};	// 클래스를 자료형으로 사용
+		Ex08[] arr = {coffee, ion, cola, juice};	// 클래스를 자료형으로 사용한 배열
 		
 		Scanner sc = new Scanner(System.in);
 		
