@@ -32,9 +32,6 @@ public class Ex09_main {
 			
 		}
 		
-		System.out.println(arr[0]);
-		
-		
 		// 순위 구하기
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr.length; j++) {
@@ -43,6 +40,7 @@ public class Ex09_main {
 				}
 			}
 		}
+		
 		
 		// 정렬하기
 		
@@ -66,6 +64,7 @@ public class Ex09_main {
 		
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i].getName() + "\t" + arr[i].getSum() + "\t" + arr[i].getAvg() + "\t" + arr[i].getHak() + "\t" + arr[i].getRank());
+			System.out.println();
 		}
 		
 			
