@@ -1,6 +1,6 @@
 package com.ict.edu;
 
-public class Ex09 {
+public class Ex10 {
 	
 	// 전역변수 지정
 	private String name;
@@ -46,27 +46,25 @@ public class Ex09 {
 		}
 	
 	// 합계 구하기
-	public void s_sum(int kor, int eng, int math) {
-		sum = kor + eng + math;
-		//	s_avg;			>> 메소드 흡수
+	public int s_sum(int kor, int eng, int math) {
+		return sum = kor + eng + math;
 	}
 	
 	// 평균 구하기	
-	public void s_avg() {
-		avg = (int)(sum / 3.0 * 10)/10.0;
-		//	s_hak;			>> 메소드 흡수
+	public double s_avg() {
+		return avg = (int)(sum / 3.0 * 10)/10.0;
 	}
 	
 	// 학점 구하기	
-	public void s_hak() {
+	public String s_hak() {
 		if (avg >= 90) {
-			hak = "A 학점";
+			return hak = "A 학점";
 		} else if (avg >= 80) {
-			hak = "B 학점";
+			return hak = "B 학점";
 		} else if (avg >= 70) {
-			hak = "C 학점";
+			return hak = "C 학점";
 		} else {
-			hak = "F 학점";
+			return hak = "F 학점";
 		}
 	}
 	
