@@ -11,8 +11,8 @@ public class Ex10_main {
 	
 	for (int i = 0; i < arr.length; i++) {
 		
-		Ex10 person = new Ex10();				// for문 안에서 사용할 클래스
-		
+		Ex10 person = new Ex10();				// 클래스 배열에 값을 입력하기 위해
+												// for문 안에서만 사용할 클래스를 생성
 		System.out.print("이름 >>> ");
 		person.setName(sc.next());
 		System.out.print("국어 성적 >>> ");

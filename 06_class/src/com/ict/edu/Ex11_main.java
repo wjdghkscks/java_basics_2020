@@ -3,7 +3,7 @@ package com.ict.edu;
 public class Ex11_main {
 	public static void main(String[] args) {
 	
-	// 객체 생성
+	// t1 객체 생성
 		
 		Ex11 t1 = new Ex11("둘리");
 				
@@ -13,8 +13,8 @@ public class Ex11_main {
 		
 		System.out.println("---------------------------------");
 		
-	// t1 데이터 변경
-	// name 은 둘리, age 는 5000, addr 은 남극
+		// t1 데이터 변경
+		// name 은 둘리, age 는 5000, addr 은 남극
 		
 		t1.setName("둘리");
 		t1.setAge(5000);
