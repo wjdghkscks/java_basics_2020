@@ -44,6 +44,7 @@ public class Ex02 {
 		// 3. equals(anObject) : boolean
 		//	- 들어온 문자열과 현재 문자열이 같으면 true, 다르면 false
 		//	- 대소문자를 구별함
+		
 		// 4. equalsIgnoreCase : boolean
 		//	- 들어온 문자열과 현재 문자열이 같으면 true, 다르면 false
 		//	- 대소문자를 구별하지 않음
@@ -112,7 +113,7 @@ public class Ex02 {
 		k1 = str10.indexOf("er");
 		System.out.println(k1);
 		
-			// 해당하는 문자가 없는 경우
+			// 해당하는 문자가 없는 경우	>>> -1이 출력됨
 		k1 = str10.indexOf('K');
 		System.out.println(k1);
 		
@@ -255,7 +256,7 @@ public class Ex02 {
 		System.out.println("------------------------------");
 		
 		String[] arr4 = str16.split(",", 7);	// 인자의 개수 이상의 숫자를 입력하면
-		for (String k : arr4) {					// 그 개수만큼만 생성됨
+		for (String k : arr4) {					// 인자의 개수만큼만 생성됨
 			System.out.println(k);
 		}
 		

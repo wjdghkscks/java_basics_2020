@@ -7,6 +7,7 @@ public class Ex01_Sub extends Ex01_Sup{
 	int age = 13;
 	
 	public Ex01_Sub() {
+		// super() or this() 가 생략되어 있음
 		System.out.println("자식클래스 생성자 : " + this);
 	}
 	

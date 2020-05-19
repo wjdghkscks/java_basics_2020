@@ -1,6 +1,6 @@
-package com.ict.edu3;
+package com.ict.edu6;
 
-public class Person {
+public abstract class Person {
 
 	private String name;
 	private int age;
@@ -30,9 +30,7 @@ public class Person {
 	}
 	
 	// 출력을 일괄적으로 진행하기 위해 print 메소드 생성
-	public void print() {
-		System.out.print("이름 : " + name + " 나이 : " + age);
-	}
+	public abstract void print(); 
 	
 	
 }
