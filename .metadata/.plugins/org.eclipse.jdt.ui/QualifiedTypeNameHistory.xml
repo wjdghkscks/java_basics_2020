@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="java.util.Comparator"/>
-<fullyQualifiedTypeName name="com.ict.edu.Ex04"/>
-<fullyQualifiedTypeName name="com.ict.edu.Ex05"/>
-<fullyQualifiedTypeName name="com.ict.edu.Ex06"/>
-<fullyQualifiedTypeName name="com.ict.edu.Ex07"/>
-<fullyQualifiedTypeName name="com.ict.edu.Ex08"/>
-<fullyQualifiedTypeName name="com.ict.edu.Ex09"/>
-<fullyQualifiedTypeName name="com.ict.edu.Ex11"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="com.ict.edu.Ex13"/>
-<fullyQualifiedTypeName name="com.ict.edu.Ex14"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="com.ict.edu.Random"/>
 <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
@@ -24,7 +11,6 @@
 <fullyQualifiedTypeName name="com.ict.edu.Ex01_Sub"/>
 <fullyQualifiedTypeName name="com.ict.edu.Ex01"/>
 <fullyQualifiedTypeName name="com.ict.edu.Ex01_Sup"/>
-<fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="com.ict.edu.Ex03"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="com.ict.edu2.MP3Phone"/>
@@ -39,7 +25,6 @@
 <fullyQualifiedTypeName name="com.ict.edu4.main"/>
 <fullyQualifiedTypeName name="com.ict.edu4.Dog"/>
 <fullyQualifiedTypeName name="com.ict.edu4.Cat"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.ict.edu4.Animal"/>
 <fullyQualifiedTypeName name="com.ict.edu5.Tiger2"/>
 <fullyQualifiedTypeName name="com.ict.edu5.Cat"/>
@@ -50,4 +35,29 @@
 <fullyQualifiedTypeName name="com.ict.edu7.Protoss"/>
 <fullyQualifiedTypeName name="com.ict.edu7.Zerg"/>
 <fullyQualifiedTypeName name="com.ict.edu7.Terran"/>
+<fullyQualifiedTypeName name="com.ict.edu01.Ex01.Lesson"/>
+<fullyQualifiedTypeName name="com.ict.edu02.main"/>
+<fullyQualifiedTypeName name="java.lang.TypeNotPresentException"/>
+<fullyQualifiedTypeName name="com.ict.edu01.Ex02"/>
+<fullyQualifiedTypeName name="java.awt.Window.Type"/>
+<fullyQualifiedTypeName name="com.ict.edu01.Ex05.Inner01"/>
+<fullyQualifiedTypeName name="com.ict.edu01.Ex05.Inner02"/>
+<fullyQualifiedTypeName name="com.ict.edu01.AbsTest"/>
+<fullyQualifiedTypeName name="com.ict.edu01.AbsTest2"/>
+<fullyQualifiedTypeName name="com.ict.edu01.Abs"/>
+<fullyQualifiedTypeName name="com.ict.edu01.AbsTest3"/>
+<fullyQualifiedTypeName name="com.ict.edu01.Test_A"/>
+<fullyQualifiedTypeName name="com.ict.edu01.Test_B"/>
+<fullyQualifiedTypeName name="com.ict.edu01.Test_C"/>
+<fullyQualifiedTypeName name="com.ict.edu01.K_land"/>
+<fullyQualifiedTypeName name="com.ict.edu01.I"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="com.ict.edu01.Bumper_Car"/>
+<fullyQualifiedTypeName name="com.ict.edu01.Baseball"/>
+<fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="com.ict.edu.Ex04"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
