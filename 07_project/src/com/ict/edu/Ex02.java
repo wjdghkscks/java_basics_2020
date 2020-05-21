@@ -197,14 +197,14 @@ public class Ex02 {
 		
 		System.out.println("------------------------------");
 		
-		byte[] m7 = message2.getBytes();
+		byte[] m7 = message2.getBytes();		// byte로 출력
 		for (byte k : m7) {
 			System.out.println(k);
 		}
 		
 		System.out.println("------------------------------");
 		
-		char[] m8 = message2.toCharArray();
+		char[] m8 = message2.toCharArray();		// char로 출력
 		for (char k : m8) {
 			System.out.println(k);
 		}
@@ -243,7 +243,7 @@ public class Ex02 {
 			System.out.println(k);
 		}
 		
-		System.out.println("------------------------------");
+		System.out.println("==============================");
 		
 		// 14. split(String regex, int limit) : String[]
 		//	- int limit 는 나눌 배열의 크기를 의미
