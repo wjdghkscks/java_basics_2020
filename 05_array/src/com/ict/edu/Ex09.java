@@ -26,7 +26,7 @@ public class Ex09 {
 	// 출력하기
 				
 		for (int i = 0; i < ch.length; i++) {
-			for (int j = 0; j < ch[i].length; j++) {
+			for (int j = 0; j < ch[i].length; j++) {		// 각 배열의 길이에 맞춰서 범위를 지정
 				System.out.println(ch[i][j]);
 			}
 		}

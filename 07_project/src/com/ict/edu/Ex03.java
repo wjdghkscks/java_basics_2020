@@ -12,7 +12,7 @@ public class Ex03 {
 	//	1. Random 클래스
 	//	- 각종 자료형을 난수로 발생: 자료형 범위 안에서 난수 발생
 	
-		Random ran = new Random();
+		Random ran = new Random();		// import 필요
 		
 		System.out.println("boolean형 : " + ran.nextBoolean());
 		System.out.println("int형 : " + ran.nextInt());
@@ -53,7 +53,7 @@ public class Ex03 {
 		
 	// ceil(double x) : 올림
 	// round(double x) : 반올림
-	// floor(double x) : 버림		
+	// floor(double x) : 내림		
 		System.out.println("올림 : " + Math.ceil(3.45));
 		System.out.println("올림 : " + Math.ceil(3.55));
 		System.out.println("반올림 : " + Math.round(3.45));

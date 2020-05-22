@@ -16,8 +16,8 @@ public class Ex04_main {
 		HashSet<Ex04> person = new HashSet<Ex04>();
 		
 		// 값 입력받기
-		while (true) {			// 갯수 제한 없이 넣을 수 있으므로
-								// while문을 사용
+		esc: while (true) {			// 갯수 제한 없이 넣을 수 있으므로
+									// while문을 사용
 			Ex04 p = new Ex04();
 			
 			System.out.print("이름: ");
@@ -34,20 +34,30 @@ public class Ex04_main {
 			
 			person.add(p);
 			
-			System.out.print("계속할까요? Y/N ");
-			String str = sc.next();
-			if (str.equalsIgnoreCase("N")) break;		// 잘못 입력한 경우까지 고려해서 수정
 			
+			while(true) {
+				System.out.print("계속할까요? Y/N ");
+				String co = sc.next();
+				if (co.equalsIgnoreCase("Y")) {
+					continue esc;
+				} else if (co.equalsIgnoreCase("N")) {
+					break esc;
+				} else {
+					System.out.print("\n잘못 입력하셨습니다.\n");
+					continue;
+				}				
+			}			
 		}
+	
 		
 		// 순위 구하기
-		for (Ex04 k : person) {
-			for (Ex04 j : person) {
-				if (k.getSum() < j.getSum()) {
-					k.setRank(k.getRank() + 1);
+			for (Ex04 k : person) {
+				for (Ex04 j : person) {
+					if (k.getSum() < j.getSum()) {
+						k.setRank(k.getRank() + 1);
+					}
 				}
 			}
-		}
 		
 		// 정렬까지 하려면 .toArray() 를 사용하여 배열로 바꿔서 처리
 		
@@ -61,7 +71,8 @@ public class Ex04_main {
 			System.out.print(k.getAvg() + "\t");
 			System.out.print(k.getHak() + "\t");
 			System.out.println(k.getRank());
-		}
+			}
+		
 		
 	}
 }

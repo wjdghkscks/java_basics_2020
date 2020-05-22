@@ -10,18 +10,18 @@ public class Ex03 {
 	int sound = 10;
 	double sound2 = 10.0;
 	
-	public void add() {
+	public void add() {					// 반환형 void >>> 반환하지 않음
 		System.out.println("add_1");
 		sound++;
 		System.out.println("add_2");
 	}
 	
-	public void sub() {
+	public void sub() {					// 반환형 void
 		sound--;
 		return;	
 	}
 	
-	public int mul() {
+	public int mul() {					// 반환형 int >>> 정수를 반환
 		System.out.println("mul_1");
 		return sound;
 	}
@@ -31,7 +31,7 @@ public class Ex03 {
 	// return sound2;
 	// }
 	
-	// 자료형이 다르지만 반환형이 크면 오류가 아님
+	// 자료형이 다르지만 반환형이 크면 오류가 아님 (자동형변환)
 	
 	public double plus() {
 		return sound;

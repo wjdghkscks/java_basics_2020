@@ -1,6 +1,7 @@
 package com.ict.edu;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Vector;
 
 public class Ex09 {
@@ -23,12 +24,12 @@ public class Ex09 {
 		list.add("류현진");
 		System.out.println(list);
 		
-		System.out.println("======================================");
+		System.out.println("1 ======================================");
 		
 		list.add(1, "기성용");
 		System.out.println(list);
 		
-		System.out.println("======================================");
+		System.out.println("2 ======================================");
 
 		Vector<String> vector = new Vector<String>();
 		vector.add("기성용");
@@ -39,9 +40,9 @@ public class Ex09 {
 		vector.add(2, "박찬호");
 		System.out.println(vector);
 
-		System.out.println("======================================");
+		System.out.println("3 ======================================");
 		
-		// 검색
+		// 검색	>>> indexOf
 		//	>>> .search, .elementAt, .firstElement(), .lastElement 	>>> 없음
 		//	>>> .elementAt, .firstElement(), .lastElement 			>>> vector에는 있음
 		if (list.contains("박찬호")) {
@@ -68,6 +69,46 @@ public class Ex09 {
 		
 		System.out.println(list);
 		
-	
+		System.out.println("4 ======================================");
+		
+		if (vector.contains("기성용")) {
+			System.out.println(vector);
+			System.out.println(vector.indexOf("기성용") + " >>> 기성용 위치 ");
+			System.out.println(vector.get(2));
+			System.out.println(vector.lastIndexOf("기성용") + "번째 위치");
+			System.out.println(vector.elementAt(1));
+			System.out.println(vector.firstElement());
+			System.out.println(vector.lastElement());
+		}
+		
+		System.out.println("5 ======================================");
+		
+		// 치환
+		System.out.println(vector);
+		vector.set(1, "차두리");
+		vector.setElementAt("박세리", 2);
+		System.out.println(vector);
+		
+		System.out.println("6 ======================================");
+
+		// 크기
+		System.out.println(list.size());
+		System.out.println(vector.size());
+		
+		System.out.println("6 ======================================");
+
+		// 출력
+		for (String k : list) {
+			System.out.println(k);
+		}
+		
+		System.out.println("7 ======================================");
+
+		Iterator<String> it = vector.iterator();
+		while (it.hasNext()) {
+			String res = (String) it.next();
+			System.out.println(res);
+		}
+		
 	}
 }

@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 // 다중 catch문
 //	- try문 안에 여러가지 예외가 발생할 수 있는 경우
-//	- "exception" 단독 사용 시 반드시 아래쪽 catch 문에 사용
+//	- "exception" 단독 사용 시(Exception e) 반드시 아래쪽 catch 문에 사용
 
 public class Ex03 {
 	public static void main(String[] args) {
