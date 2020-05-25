@@ -7,6 +7,7 @@ import java.util.TreeSet;
 public class Ex02 {
 	public static void main(String[] args) {
 		
+		// [Set]
 		// Set 인터페이스를 구현한 클래스 >>> HashSet, TreeSet;
 		//	- 특징: 중복 및 정렬 불가
 		//	- TreeSet은 항상 오름차순으로 자동 정렬

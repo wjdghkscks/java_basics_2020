@@ -1,6 +1,6 @@
 package com.ict.edu01;
 
-// Local 내부 클래스
+// [Local 내부 클래스]
 public class Ex06 {
 	
 	String name = "둘리";
@@ -17,7 +17,7 @@ public class Ex06 {
 		int age = 24;
 
 		// Local 내부 클래스
-		class In_01 {			// public 붙이면 오류
+		class In_01 {			// public을 붙이면 오류 발생
 			int money = 2000;
 			public In_01() {
 				System.out.println("내부: " + this);

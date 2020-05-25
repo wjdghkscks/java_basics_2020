@@ -41,7 +41,7 @@ public class Ex03_main {
 			System.out.println("============================================");
 			
 		// 2) 컬렉션
-		HashSet<Ex03> set1 = new HashSet<Ex03>();				// 박싱
+		HashSet<Ex03> set1 = new HashSet<Ex03>();				// 제네릭: Ex03
 			set1.add(p1);
 			set1.add(p2);
 			set1.add(p3);

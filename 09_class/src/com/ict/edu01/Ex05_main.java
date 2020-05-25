@@ -4,15 +4,14 @@ import com.ict.edu01.Ex05.Inner02;
 
 public class Ex05_main {
 	public static void main(String[] args) {
-	// 내부 클래스가 별도로 객체 생성을 할 수 없음
+	// 내부 클래스 Inner01은 별도로 객체 생성을 할 수 없음
 		// Inner01 inner01 = new Inner01();
-		// 				>>> 외부클래스를 통해서 객체를 생성해야 함
+		// 				>>> 외부 클래스를 통해서 객체를 생성해야 함
 		
 		Ex05 e5 = new Ex05();
 		System.out.println(e5.name);
 		
-		// private이므로 오류 발생
-		// System.out.println(e5.age);
+		// System.out.println(e5.age);	>>> private이므로 출력 불가
 		
 		e5.play();
 		

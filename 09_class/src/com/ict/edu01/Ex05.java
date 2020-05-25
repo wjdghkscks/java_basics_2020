@@ -1,6 +1,6 @@
 package com.ict.edu01;
 
-// Member 내부 클래스 & static 내부 클래스
+// [Member 내부 클래스 & static 내부 클래스]
 public class Ex05 {
 
 	// 멤버 필드
@@ -52,6 +52,8 @@ public class Ex05 {
 
 	}	// Member 내부클래스 Inner01 끝
 	
+//--------------------------------------------------------------------------------
+	
 	public static class Inner02 {		// static 내부 클래스 Inner02 시작
 		
 		int a1 = 100;
@@ -60,7 +62,7 @@ public class Ex05 {
 		static final int a4 = 400;
 		
 		public void go() {
-		// 외부 클래스의 instance 전역변수 못가져옴
+		// 외부 클래스의 instance 변수는 사용할 수 없음
 			// System.out.println(name);
 			// System.out.println(age);
 			

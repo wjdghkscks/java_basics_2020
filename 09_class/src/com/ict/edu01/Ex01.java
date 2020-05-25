@@ -30,10 +30,10 @@ public class Ex01 {
 		System.out.println("===================");
 		
 		
-		// enum 에서 여러개를 추출	>>> .values() 를 사용
+		// enum 의 데이터들을 추출	>>> .values() 를 사용
 		Lesson[] arr = Lesson.values();
 		
-			// .ordinal 을 통해 index 값을 추출할 수 있음
+		// .ordinal 을 통해 index 값을 추출할 수 있음
 		for (Lesson k : arr) {
 			System.out.println(k + ":" + k.ordinal()); 
 		}
