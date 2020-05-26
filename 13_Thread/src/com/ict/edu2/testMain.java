@@ -1,6 +1,6 @@
 package com.ict.edu2;
 
-// [Thread 클래스 상속을 이용한 멀티 스레드 생성 방법]
+// [스레드 클래스 상속을 이용한 멀티 스레드 생성 방법]
 // Start() >> run()
 // 상속은 하나밖에 받을 수 없으므로, Runnable 보다 사용 빈도가 낮음
 public class testMain {

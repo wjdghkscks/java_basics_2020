@@ -12,7 +12,8 @@ public class Ex01 {
 		System.out.println("0 ======================");
 		
 		Ex02 test = new Ex02();
-		test.play();
+		
+			test.play();
 		
 		System.out.println("1 ======================");
 		
@@ -26,11 +27,11 @@ public class Ex01 {
 		
 		System.out.println("1: " + Thread.currentThread().getName());
 		
-		test2.go();
+			test2.go();
 		
 		System.out.println("2: " + Thread.currentThread().getName());
 		
-		test2.run();
+			test2.run();
 		
 		System.out.println("3: " + Thread.currentThread().getName());
 		
