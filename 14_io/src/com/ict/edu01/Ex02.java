@@ -1,4 +1,4 @@
-package com.ict.edu;
+package com.ict.edu01;
 
 import java.io.File;
 import java.io.IOException;
@@ -27,7 +27,6 @@ public class Ex02 {
 		System.out.println("1 ================");	// 디렉토리 생성
 
 		String pahtName2 = "C:" + File.separator + "study" + File.separator + "util" + File.separator + "test";
-
 		File file2 = new File(pahtName2);
 
 		boolean res2 = file2.mkdir();

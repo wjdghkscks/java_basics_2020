@@ -1,4 +1,4 @@
-package com.ict.edu2;
+package com.ict.edu02;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -13,8 +13,7 @@ public class Ex07 {
 		File file = new File(pathName);
 
 		FileOutputStream fos = null;
-		// 속도 향상을 위한 Buffer 사용
-		BufferedOutputStream bos = null;
+		BufferedOutputStream bos = null;		// 속도 향상을 위한 Buffer 사용
 		
 		try {
 			

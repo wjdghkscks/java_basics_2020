@@ -1,4 +1,4 @@
-package com.ict.edu2;
+package com.ict.edu02;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -10,7 +10,7 @@ import java.io.IOException;
 //	- 대상: 영문자 + 사진, 음악, 동영상 등 byte로 이루어진 모든 파일
 //	- 최상위 클래스: InputStream(입력), OutputStream(출력)
 
-//	FileInputStream 주요 메소드
+//	FileInputStream 주요 메소드 (바이트스트림 입력)
 //		- read(): 결과가 아스키코드(int) 숫자 하나로 출력되므로
 //				  >>> char 형변환을 통해 문자로 변경하여 사용
 //		- read(byte[] b): 결과가 아스키코드 숫자의 배열로 출력되며, 배열 크기를 저장해야 함

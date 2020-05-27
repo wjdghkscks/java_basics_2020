@@ -1,10 +1,10 @@
-package com.ict.edu2;
+package com.ict.edu02;
 
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 
-// Buffer를 사용한 FileIntputStream
+// Buffer를 사용한 FileInputStream
 public class Ex08 {
 	public static void main(String[] args) {
 
@@ -54,6 +54,5 @@ public class Ex08 {
 			} catch (Exception e2) {
 			} 
 		}
-			// 숙제) Buffer를 사용해서 사진/동영상 복사
 	}
 }
