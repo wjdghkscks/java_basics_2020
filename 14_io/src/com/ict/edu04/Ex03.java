@@ -7,7 +7,7 @@ import java.io.FileReader;
 //	- read()
 //	- int(아스키코드) >> char 형변환, read(byte[] b)
 
-// [FileReader]
+// FileReader
 //	- read()
 //	- int(유니코드) >> char 형변환, read(char[] b)
 

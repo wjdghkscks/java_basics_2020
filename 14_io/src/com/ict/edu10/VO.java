@@ -38,7 +38,7 @@ public class VO implements Externalizable {
 		}
 	}
 
-	@Override
+	@Override		// 역직렬화
 	public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
 		name = (String) in.readObject();
 		sum = (int) in.readObject();
@@ -46,7 +46,7 @@ public class VO implements Externalizable {
 		hak = (String) in.readObject();
 		
 	}
-	@Override
+	@Override		// 직렬화
 	public void writeExternal(ObjectOutput out) throws IOException {
 		out.writeObject(name);
 		out.writeObject(sum);

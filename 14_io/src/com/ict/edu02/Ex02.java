@@ -8,7 +8,7 @@ import java.io.IOException;
 // 1) 바이트 스트림
 //	- 모든 처리를 1byte씩 처리
 //	- 대상: 영문자 + 사진, 음악, 동영상 등 byte로 이루어진 모든 파일
-//	- 최상위 클래스: InputStream(입력), OutputStream(출력)
+//	- 최상위 클래스: InputStream(입력), OutputStream(출력)		>>> 바이트 스트림은 OOOStream
 
 // 	FileOutputStream 주요 메소드 (바이트스트림 출력)
 //		- write(int b):	'int b'에 아스키 코드 하나를 입력하여 문자 하나를 쓸 수 있음

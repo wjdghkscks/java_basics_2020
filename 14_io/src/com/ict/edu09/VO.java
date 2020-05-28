@@ -34,7 +34,7 @@ public class VO implements Externalizable {
 		this.gender = gender;
 	}
 	
-	@Override	// 직렬화
+	@Override	// 역직렬화
 	public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
 		name = (String) in.readObject();
 		age = (int) in.readObject();
@@ -42,7 +42,7 @@ public class VO implements Externalizable {
 		gender = (boolean) in.readObject();
 	}
 
-	@Override	// 역직렬화
+	@Override	// 직렬화
 	public void writeExternal(ObjectOutput out) throws IOException {
 		out.writeObject(name);
 		out.writeObject(age);

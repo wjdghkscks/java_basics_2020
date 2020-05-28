@@ -5,10 +5,10 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 
-// [문자 스트림]
+// 2) 문자 스트림
 //	- 모든 처리를 2byte씩 처리
 //	- 대상: 세계 모든 언어로 구성된 문서 파일
-//	- 최상위 클래스: Reader(입력), Writer(출력)
+//	- 최상위 클래스: Reader(입력), Writer(출력)		>>> 문자 스트림은 OOOReader / OOOWriter
 
 //	- FileOutputStream: 1byte 처리, write(int b), write(byte[] b)
 //	- FileWriter: 2byte 처리, write(int b), write(char[] b), write(String str)
