@@ -12,7 +12,7 @@ public class Ex01 {
 			// 소켓 생성 >> Socket(InetAddress address, int port)
 			s = new Socket("203.236.220.76", 7777);
 			
-			System.out.println("client| 수고하셨습니다.");
+			System.out.println("server| 수고하셨습니다.");
 			
 		} catch (Exception e) {
 		} finally {

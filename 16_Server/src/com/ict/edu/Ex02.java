@@ -15,7 +15,7 @@ public class Ex02 implements Runnable {
 			ss = new ServerSocket(7777);
 			System.out.println("서버 대기 중......");
 			
-			Ex02 e2 = new Ex02();
+			Ex02 e2 = new Ex02();				// 스레드 생성을 위하여, Runnable을 갖는 객체 생성
 			Thread thread = new Thread(e2);		// start()를 갖고 있는 스레드 생성
 			thread.start(); 					// 스레드 start();
 			
