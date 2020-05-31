@@ -12,7 +12,7 @@ public class Ex12 {
 	// 생성자
 	
 	public Ex12() { }		// 임시 클래스 생성을 위해 오버로딩
-							// 기본 생성자는 오류 방지를 위해 항상 생성해주는 것이 좋음
+							// 기본 생성자는 오류 방지를 위해 생성해주는 것이 좋음
 	
 	public Ex12(String name, int sum, double avg, String hak, int rank) {
 		this.name = name;

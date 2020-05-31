@@ -1,6 +1,6 @@
 package com.ict.edu10;
 
-public class Calc2 implements Add, Sub, Mul, Div{
+public class Calc2 implements Add, Sub, Mul, Div{		// 다중 상속
 
 	@Override
 	public double plus(double s1, double s2) {
