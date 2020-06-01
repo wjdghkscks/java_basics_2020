@@ -24,6 +24,8 @@ public class Ex05 {
 		System.out.println("외부 메소드");	
 	}
 
+//--------------------------------------------------------------------------------
+	
 	// Member 내부 클래스 (+static)
 	public class Inner01 {				// Member 내부클래스 Inner01 시작
 		int k1 = 100;
