@@ -14,7 +14,7 @@ import java.net.Socket;
 - 서버 >> ServerSocket / 클라이언트 >> Socket
 
 */
-
+// CMD 실행 > ipconfig/all 입력 > IPv4 주소 확인
 //나의 IPv4 주소 . . . . . . . . . : 203.236.220.76
 
 public class Ex01 {
